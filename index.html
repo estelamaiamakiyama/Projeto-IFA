@@ -1,1008 +1,1067 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description"
-    content="Projeto Cada Gota Conta — tratamento da água e esgoto, contaminação, doenças, sustentabilidade e análise de dados.">
+    <meta name="description"
+        content="Projeto interdisciplinar sobre tratamento da água, esgoto, contaminação, doenças, sustentabilidade, tecnociência e análise de dados.">
 
-  <title>Cada Gota Conta | Tecnociência</title>
+    <title>Água em Foco | Tecnociência, Sustentabilidade e Soluções</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="topbar">
+    <!-- ================= NAVBAR ================= -->
 
-  <a class="brand" href="#inicio">
-    <span class="drop">💧</span>
-    <span>Cada Gota Conta</span>
-  </a>
+    <header class="header">
+        <nav class="navbar container">
 
-  <button class="menu-btn" id="menuBtn">
-    ☰
-  </button>
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">💧</span>
+                <span>Água<span class="logo-highlight">+</span></span>
+            </a>
 
-  <nav id="nav">
-    <a href="#quimica">Química</a>
-    <a href="#biologia">Biologia</a>
-    <a href="#sustentabilidade">Sustentabilidade</a>
-    <a href="#dados">Dados</a>
-    <a href="#fontes">Fontes</a>
-  </nav>
+            <button class="menu-button" id="menuButton">
+                ☰
+            </button>
 
-</header>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#tecnociencia">Tecnociência</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#problemas">Problemas</a></li>
+                <li><a href="#dados">Dados</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+            </ul>
 
-
-<main>
-
-<!-- HERO -->
-
-<section id="inicio" class="hero">
-
-  <div class="hero-content">
-
-    <span class="eyebrow">
-      PROJETO INTEGRADOR • TECNOCIÊNCIA
-    </span>
-
-    <h1>
-      Água limpa é
-      <span>saúde, ciência e futuro.</span>
-    </h1>
-
-    <p>
-      Um mergulho interativo no tratamento da água e do esgoto,
-      na contaminação hídrica, nas doenças relacionadas e no papel
-      da sustentabilidade.
-    </p>
-
-    <div class="hero-actions">
-
-      <a class="btn primary" href="#quimica">
-        Explorar o projeto ↓
-      </a>
-
-      <a class="btn ghost" href="#dados">
-        Ver dados
-      </a>
-
-    </div>
-
-  </div>
+        </nav>
+    </header>
 
 
-  <div class="hero-orbit">
+    <!-- ================= HERO ================= -->
 
-    <div class="orbit orbit1"></div>
-    <div class="orbit orbit2"></div>
+    <main>
 
-    <div class="water-core">
-      H₂O
-    </div>
+        <section class="hero" id="inicio">
 
-    <span class="bubble b1">💧</span>
-    <span class="bubble b2">⚗️</span>
-    <span class="bubble b3">🦠</span>
+            <div class="hero-background"></div>
 
-  </div>
+            <div class="container hero-content">
 
-</section>
+                <div class="hero-text">
 
+                    <span class="tag">
+                        🔬 Projeto interdisciplinar
+                    </span>
 
-<!-- INTRODUÇÃO -->
+                    <h1>
+                        Água em foco:
+                        <span>ciência, saúde e sustentabilidade</span>
+                    </h1>
 
-<section class="intro section">
+                    <p>
+                        Uma pesquisa sobre tratamento da água para consumo humano,
+                        tratamento de esgoto, contaminação das águas, doenças
+                        relacionadas, sustentabilidade e análise de dados.
+                    </p>
 
-  <div class="section-heading">
+                    <div class="hero-buttons">
+                        <a href="#tecnociencia" class="btn btn-primary">
+                            Explorar pesquisa
+                        </a>
 
-    <span class="eyebrow">
-      POR QUE ISSO IMPORTA?
-    </span>
+                        <a href="#dados" class="btn btn-outline">
+                            Ver dados
+                        </a>
+                    </div>
 
-    <h2>
-      Água não é só um recurso.
-      É uma questão de <span>vida.</span>
-    </h2>
+                </div>
 
-  </div>
+                <div class="water-animation">
 
+                    <div class="water-circle">
+                        <span>💧</span>
+                    </div>
 
-  <div class="intro-grid">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
 
-    <article class="info-card">
+                </div>
 
-      <div class="icon">🌎</div>
-
-      <h3>
-        Um recurso essencial
-      </h3>
-
-      <p>
-        Água segura é indispensável para beber,
-        produzir alimentos, manter ecossistemas
-        e prevenir doenças.
-      </p>
-
-    </article>
-
-
-    <article class="info-card">
-
-      <div class="icon">🧪</div>
-
-      <h3>
-        Ciência no tratamento
-      </h3>
-
-      <p>
-        Processos físicos, químicos e biológicos
-        transformam água bruta e esgoto em recursos
-        mais seguros para a sociedade e o ambiente.
-      </p>
-
-    </article>
+            </div>
+        </section>
 
 
-    <article class="info-card">
+        <!-- ================= INTRODUÇÃO ================= -->
 
-      <div class="icon">❤️</div>
+        <section class="intro section">
 
-      <h3>
-        Saúde pública
-      </h3>
+            <div class="container">
 
-      <p>
-        Contaminação e saneamento inadequado podem
-        favorecer a transmissão de doenças de
-        transmissão hídrica e alimentar.
-      </p>
+                <div class="section-heading">
 
-    </article>
+                    <span class="eyebrow">
+                        O desafio
+                    </span>
 
-  </div>
+                    <h2>
+                        Por que a água precisa ser tratada?
+                    </h2>
 
-</section>
+                    <p>
+                        A água pode parecer limpa, mas isso não significa que seja
+                        própria para o consumo. A qualidade da água precisa ser
+                        avaliada considerando características físicas, químicas e
+                        microbiológicas.
+                    </p>
+
+                </div>
+
+                <div class="cards-grid">
+
+                    <article class="info-card blue">
+                        <div class="card-icon">🧪</div>
+                        <h3>Química</h3>
+                        <p>
+                            Analisa substâncias, pH, turbidez, sais, metais,
+                            produtos químicos e outros parâmetros da água.
+                        </p>
+                    </article>
+
+                    <article class="info-card green">
+                        <div class="card-icon">🧬</div>
+                        <h3>Biologia</h3>
+                        <p>
+                            Investiga microrganismos e doenças que podem ser
+                            transmitidas por água contaminada.
+                        </p>
+                    </article>
+
+                    <article class="info-card cyan">
+                        <div class="card-icon">🌱</div>
+                        <h3>Sustentabilidade</h3>
+                        <p>
+                            Busca utilizar os recursos hídricos de maneira
+                            responsável, reduzindo desperdícios e impactos.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
-<!-- QUÍMICA -->
+        <!-- ================= TECNOCIÊNCIA ================= -->
 
-<section id="quimica" class="section dark-section">
+        <section class="topic-section technology" id="tecnociencia">
 
-  <div class="section-heading">
+            <div class="container">
 
-    <span class="eyebrow">
-      TECNOCIÊNCIA • QUÍMICA
-    </span>
+                <div class="topic-header">
 
-    <h2>
-      Como a água e o esgoto são tratados?
-    </h2>
+                    <div class="topic-number">
+                        01
+                    </div>
 
-    <p>
-      O tratamento combina diferentes etapas.
-      Clique em cada uma para entender sua função.
-    </p>
+                    <div>
+                        <span class="eyebrow">
+                            Química + Tecnologia + Biologia
+                        </span>
 
-  </div>
+                        <h2>
+                            Tecnociência
+                        </h2>
+
+                        <p>
+                            Como a ciência e a tecnologia ajudam a transformar
+                            água contaminada em água adequada para o consumo.
+                        </p>
+                    </div>
+
+                </div>
 
 
-  <div class="tab-buttons">
+                <!-- Tratamento -->
 
-    <button class="tab active" data-tab="eta">
-      ETA • Água para consumo
+                <div class="content-grid">
+
+                    <div>
+
+                        <h3>Tratamento da água para consumo humano</h3>
+
+                        <p>
+                            O tratamento da água tem como objetivo remover ou
+                            inativar microrganismos e substâncias que possam
+                            representar riscos à saúde, além de melhorar
+                            características como turbidez, cor, gosto e odor.
+                        </p>
+
+                        <div class="treatment-flow">
+
+                            <div class="flow-item">
+                                <span>01</span>
+                                <strong>Captação</strong>
+                                <small>Retirada da água</small>
+                            </div>
+
+                            <div class="flow-arrow">→</div>
+
+                            <div class="flow-item">
+                                <span>02</span>
+                                <strong>Coagulação</strong>
+                                <small>Agregação de partículas</small>
+                            </div>
+
+                            <div class="flow-arrow">→</div>
+
+                            <div class="flow-item">
+                                <span>03</span>
+                                <strong>Floculação</strong>
+                                <small>Formação de flocos</small>
+                            </div>
+
+                            <div class="flow-arrow">→</div>
+
+                            <div class="flow-item">
+                                <span>04</span>
+                                <strong>Decantação</strong>
+                                <small>Separação dos sólidos</small>
+                            </div>
+
+                            <div class="flow-arrow">→</div>
+
+                            <div class="flow-item">
+                                <span>05</span>
+                                <strong>Filtração</strong>
+                                <small>Retenção de partículas</small>
+                            </div>
+
+                            <div class="flow-arrow">→</div>
+
+                            <div class="flow-item">
+                                <span>06</span>
+                                <strong>Desinfecção</strong>
+                                <small>Controle de microrganismos</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <aside class="highlight-box">
+
+                        <div class="highlight-icon">
+                            🔬
+                        </div>
+
+                        <h3>
+                            Ciência aplicada
+                        </h3>
+
+                        <p>
+                            O tratamento combina conhecimentos de química,
+                            microbiologia, engenharia ambiental e tecnologias
+                            de monitoramento.
+                        </p>
+
+                    </aside>
+
+                </div>
+
+
+                <!-- Parâmetros -->
+
+                <div class="subsection">
+
+                    <span class="eyebrow">
+                        Controle de qualidade
+                    </span>
+
+                    <h3>
+                        O que é analisado na água?
+                    </h3>
+
+                    <div class="data-table-wrapper">
+
+                        <table>
+
+                            <thead>
+                                <tr>
+                                    <th>Parâmetro</th>
+                                    <th>O que indica?</th>
+                                    <th>Área relacionada</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>pH</td>
+                                    <td>Acidez ou alcalinidade</td>
+                                    <td>Química</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Turbidez</td>
+                                    <td>Presença de partículas suspensas</td>
+                                    <td>Química / Física</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Cor</td>
+                                    <td>Características visuais da água</td>
+                                    <td>Química</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Microrganismos</td>
+                                    <td>Possível contaminação biológica</td>
+                                    <td>Biologia</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Cloro residual</td>
+                                    <td>Controle da desinfecção</td>
+                                    <td>Química</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Substâncias químicas</td>
+                                    <td>Possíveis riscos toxicológicos</td>
+                                    <td>Química</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= BIOLOGIA / CONTAMINAÇÃO ================= -->
+
+        <section class="contamination section" id="problemas">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        Biologia + Saúde
+                    </span>
+
+                    <h2>
+                        Contaminação das águas e doenças
+                    </h2>
+
+                    <p>
+                        A contaminação pode ocorrer por microrganismos,
+                        substâncias químicas, esgoto doméstico, atividades
+                        industriais, agricultura e outros fatores.
+                    </p>
+
+                </div>
+
+
+                <div class="disease-grid">
+
+                    <article class="disease-card">
+                        <span class="disease-icon">🦠</span>
+                        <h3>Cólera</h3>
+                        <p>
+                            Associada ao consumo de água ou alimentos
+                            contaminados pela bactéria causadora da doença.
+                        </p>
+                        <span class="risk">Risco microbiológico</span>
+                    </article>
+
+                    <article class="disease-card">
+                        <span class="disease-icon">🧫</span>
+                        <h3>Disenteria</h3>
+                        <p>
+                            Infecções intestinais podem estar relacionadas
+                            ao consumo de água contaminada.
+                        </p>
+                        <span class="risk">Risco microbiológico</span>
+                    </article>
+
+                    <article class="disease-card">
+                        <span class="disease-icon">🧬</span>
+                        <h3>Hepatite A</h3>
+                        <p>
+                            Pode ser transmitida pela ingestão de água ou
+                            alimentos contaminados.
+                        </p>
+                        <span class="risk">Risco viral</span>
+                    </article>
+
+                    <article class="disease-card">
+                        <span class="disease-icon">🦠</span>
+                        <h3>Febre tifoide</h3>
+                        <p>
+                            Doença bacteriana relacionada à ingestão de água
+                            ou alimentos contaminados.
+                        </p>
+                        <span class="risk">Risco bacteriano</span>
+                    </article>
+
+                    <article class="disease-card">
+                        <span class="disease-icon">🔬</span>
+                        <h3>Giardíase</h3>
+                        <p>
+                            Infecção intestinal que pode ocorrer pela ingestão
+                            de água contaminada.
+                        </p>
+                        <span class="risk">Protozoário</span>
+                    </article>
+
+                    <article class="disease-card">
+                        <span class="disease-icon">🐛</span>
+                        <h3>Verminoses</h3>
+                        <p>
+                            Algumas parasitoses estão relacionadas à falta de
+                            saneamento e condições inadequadas de higiene.
+                        </p>
+                        <span class="risk">Parasitos</span>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SUSTENTABILIDADE ================= -->
+
+        <section class="topic-section sustainability" id="sustentabilidade">
+
+            <div class="container">
+
+                <div class="topic-header">
+
+                    <div class="topic-number green-number">
+                        02
+                    </div>
+
+                    <div>
+                        <span class="eyebrow">
+                            Meio ambiente + Sociedade
+                        </span>
+
+                        <h2>
+                            Sustentabilidade
+                        </h2>
+
+                        <p>
+                            Cuidar da água significa proteger um recurso
+                            essencial para a vida e para as próximas gerações.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="sustainability-grid">
+
+                    <article class="sustainability-card">
+                        <span>♻️</span>
+                        <h3>Reúso da água</h3>
+                        <p>
+                            Água proveniente de processos adequados de
+                            tratamento pode ser reutilizada para determinadas
+                            finalidades, reduzindo a pressão sobre os recursos.
+                        </p>
+                    </article>
+
+                    <article class="sustainability-card">
+                        <span>🌳</span>
+                        <h3>Proteção das nascentes</h3>
+                        <p>
+                            Preservar áreas naturais e matas ciliares ajuda
+                            a proteger rios, nascentes e mananciais.
+                        </p>
+                    </article>
+
+                    <article class="sustainability-card">
+                        <span>🏭</span>
+                        <h3>Tratamento de efluentes</h3>
+                        <p>
+                            O tratamento de esgoto e efluentes reduz a
+                            quantidade de contaminantes lançados no ambiente.
+                        </p>
+                    </article>
+
+                    <article class="sustainability-card">
+                        <span>💡</span>
+                        <h3>Tecnologia eficiente</h3>
+                        <p>
+                            Novas tecnologias podem ajudar a diminuir consumo
+                            de energia, perdas e utilização desnecessária de
+                            produtos químicos.
+                        </p>
+                    </article>
+
+                </div>
+
+
+                <div class="quote-box">
+
+                    <div class="quote-mark">
+                        “
+                    </div>
+
+                    <p>
+                        Água segura, saneamento e higiene são fundamentais
+                        para a saúde humana e para o desenvolvimento sustentável.
+                    </p>
+
+                    <span>
+                        Organização Mundial da Saúde
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ESGOTO ================= -->
+
+        <section class="sewage section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        Saneamento
+                    </span>
+
+                    <h2>
+                        Tratamento de esgoto
+                    </h2>
+
+                    <p>
+                        O tratamento de esgoto busca remover contaminantes
+                        antes que os efluentes retornem ao ambiente.
+                    </p>
+
+                </div>
+
+
+                <div class="sewage-process">
+
+                    <div class="sewage-step">
+                        <div class="step-circle">1</div>
+                        <h3>Pré-tratamento</h3>
+                        <p>
+                            Retenção de materiais maiores e sólidos.
+                        </p>
+                    </div>
+
+                    <div class="sewage-step">
+                        <div class="step-circle">2</div>
+                        <h3>Tratamento primário</h3>
+                        <p>
+                            Separação de parte dos sólidos suspensos.
+                        </p>
+                    </div>
+
+                    <div class="sewage-step">
+                        <div class="step-circle">3</div>
+                        <h3>Tratamento biológico</h3>
+                        <p>
+                            Microrganismos ajudam a degradar matéria orgânica.
+                        </p>
+                    </div>
+
+                    <div class="sewage-step">
+                        <div class="step-circle">4</div>
+                        <h3>Tratamento final</h3>
+                        <p>
+                            Processos adicionais podem melhorar a qualidade
+                            do efluente antes da destinação.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESOLUÇÃO DE PROBLEMAS ================= -->
+
+        <section class="solutions section" id="solucoes">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        03 — Ação
+                    </span>
+
+                    <h2>
+                        Resolução de problemas
+                    </h2>
+
+                    <p>
+                        A solução dos problemas relacionados à água depende
+                        da união entre ciência, políticas públicas, tecnologia
+                        e participação da sociedade.
+                    </p>
+
+                </div>
+
+
+                <div class="solution-timeline">
+
+                    <div class="timeline-item">
+
+                        <span class="timeline-number">
+                            01
+                        </span>
+
+                        <div>
+                            <h3>Identificar</h3>
+                            <p>
+                                Detectar as fontes de contaminação e os
+                                principais problemas de saneamento.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <span class="timeline-number">
+                            02
+                        </span>
+
+                        <div>
+                            <h3>Analisar</h3>
+                            <p>
+                                Coletar dados sobre qualidade da água,
+                                população, doenças e infraestrutura.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <span class="timeline-number">
+                            03
+                        </span>
+
+                        <div>
+                            <h3>Planejar</h3>
+                            <p>
+                                Desenvolver estratégias de tratamento,
+                                saneamento, prevenção e educação ambiental.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <span class="timeline-number">
+                            04
+                        </span>
+
+                        <div>
+                            <h3>Aplicar</h3>
+                            <p>
+                                Colocar as soluções em prática e acompanhar
+                                os resultados.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DADOS ================= -->
+
+        <section class="data-section section" id="dados">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        Análise de dados
+                    </span>
+
+                    <h2>
+                        A água em números
+                    </h2>
+
+                    <p>
+                        Alguns dados globais ajudam a dimensionar o desafio
+                        relacionado à água potável e ao saneamento.
+                    </p>
+
+                </div>
+
+
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+
+                        <span class="stat-icon">
+                            💧
+                        </span>
+
+                        <strong class="counter" data-target="73">
+                            0
+                        </strong>
+
+                        <span class="percent">%</span>
+
+                        <p>
+                            da população mundial utilizava serviços de água
+                            potável gerenciados com segurança em 2022.
+                        </p>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <span class="stat-icon">
+                            🚽
+                        </span>
+
+                        <strong class="counter" data-target="57">
+                            0
+                        </strong>
+
+                        <span class="percent">%</span>
+
+                        <p>
+                            da população mundial utilizava serviços de
+                            saneamento gerenciados com segurança em 2022.
+                        </p>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <span class="stat-icon">
+                            🌍
+                        </span>
+
+                        <strong class="counter" data-target="44">
+                            0
+                        </strong>
+
+                        <span class="percent">%</span>
+
+                        <p>
+                            do esgoto doméstico gerado no mundo era lançado
+                            sem tratamento seguro em 2020.
+                        </p>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <span class="stat-icon">
+                            🦠
+                        </span>
+
+                        <strong class="counter" data-target="1700">
+                            0
+                        </strong>
+
+                        <span class="million">
+                            milhões
+                        </span>
+
+                        <p>
+                            de pessoas utilizavam, em 2022, fontes de água
+                            potável contaminadas por fezes.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Gráfico -->
+
+                <div class="chart-card">
+
+                    <div class="chart-header">
+
+                        <div>
+                            <span class="eyebrow">
+                                Comparação
+                            </span>
+
+                            <h3>
+                                Indicadores globais de água e saneamento
+                            </h3>
+                        </div>
+
+                    </div>
+
+                    <div class="chart">
+
+                        <div class="chart-row">
+
+                            <div class="chart-label">
+                                Água potável segura
+                            </div>
+
+                            <div class="bar-container">
+                                <div
+                                    class="bar blue-bar"
+                                    data-width="73"
+                                >
+                                    <span>73%</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="chart-row">
+
+                            <div class="chart-label">
+                                Saneamento seguro
+                            </div>
+
+                            <div class="bar-container">
+                                <div
+                                    class="bar green-bar"
+                                    data-width="57"
+                                >
+                                    <span>57%</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="chart-row">
+
+                            <div class="chart-label">
+                                Esgoto sem tratamento seguro
+                            </div>
+
+                            <div class="bar-container">
+                                <div
+                                    class="bar red-bar"
+                                    data-width="44"
+                                >
+                                    <span>44%</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <p class="data-note">
+                        Fonte: Organização Mundial da Saúde (OMS), dados
+                        globais referentes a 2020–2022.
+                    </p>
+
+                </div>
+
+
+                <!-- Tabela -->
+
+                <div class="data-table-wrapper">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+                                <th>Indicador</th>
+                                <th>Percentual / valor</th>
+                                <th>Ano</th>
+                                <th>Interpretação</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Água potável gerenciada com segurança</td>
+                                <td><strong>73%</strong></td>
+                                <td>2022</td>
+                                <td>Indicador de acesso global</td>
+                            </tr>
+
+                            <tr>
+                                <td>Saneamento gerenciado com segurança</td>
+                                <td><strong>57%</strong></td>
+                                <td>2022</td>
+                                <td>Indicador de saneamento</td>
+                            </tr>
+
+                            <tr>
+                                <td>Esgoto doméstico sem tratamento seguro</td>
+                                <td><strong>44%</strong></td>
+                                <td>2020</td>
+                                <td>Desafio ambiental</td>
+                            </tr>
+
+                            <tr>
+                                <td>População usando água contaminada por fezes</td>
+                                <td><strong>1,7 bilhão</strong></td>
+                                <td>2022</td>
+                                <td>Risco microbiológico</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONCLUSÃO ================= -->
+
+        <section class="conclusion section">
+
+            <div class="container">
+
+                <div class="conclusion-box">
+
+                    <div class="conclusion-icon">
+                        💧
+                    </div>
+
+                    <div>
+
+                        <span class="eyebrow">
+                            Conclusão
+                        </span>
+
+                        <h2>
+                            Água tratada é ciência aplicada à vida.
+                        </h2>
+
+                        <p>
+                            O tratamento da água e do esgoto não é apenas uma
+                            questão tecnológica. Ele envolve química, biologia,
+                            saúde pública, sustentabilidade, engenharia,
+                            educação e análise de dados.
+                        </p>
+
+                        <p>
+                            Investir em saneamento, prevenir a contaminação e
+                            utilizar os recursos hídricos de maneira responsável
+                            são ações fundamentais para construir um futuro
+                            mais saudável e sustentável.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="#inicio" class="logo footer-logo">
+                    <span class="logo-icon">💧</span>
+                    <span>Água<span class="logo-highlight">+</span></span>
+                </a>
+
+                <p>
+                    Tecnociência • Sustentabilidade • Resolução de problemas
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#tecnociencia">Tecnociência</a>
+                <a href="#sustentabilidade">Sustentabilidade</a>
+                <a href="#problemas">Problemas</a>
+                <a href="#dados">Dados</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                Projeto educacional sobre água, saneamento e sustentabilidade.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <button
+        class="back-top"
+        id="backTop"
+        aria-label="Voltar ao topo"
+    >
+        ↑
     </button>
 
-    <button class="tab" data-tab="ete">
-      ETE • Tratamento de esgoto
-    </button>
 
-  </div>
-
-
-  <!-- ETA -->
-
-  <div class="process-panel active" id="eta">
-
-    <div class="process-track">
-
-      <button class="step active" data-step="eta1">
-        <span>01</span>
-        <b>Coagulação</b>
-      </button>
-
-      <button class="step" data-step="eta2">
-        <span>02</span>
-        <b>Floculação</b>
-      </button>
-
-      <button class="step" data-step="eta3">
-        <span>03</span>
-        <b>Decantação</b>
-      </button>
-
-      <button class="step" data-step="eta4">
-        <span>04</span>
-        <b>Filtração</b>
-      </button>
-
-      <button class="step" data-step="eta5">
-        <span>05</span>
-        <b>Desinfecção</b>
-      </button>
-
-    </div>
-
-
-    <div class="step-detail" id="eta-detail">
-
-      <span class="detail-tag">
-        ETAPA 01
-      </span>
-
-      <h3>
-        Coagulação
-      </h3>
-
-      <p>
-        Produtos coagulantes ajudam a desestabilizar
-        partículas muito pequenas presentes na água,
-        facilitando sua união nas etapas seguintes.
-      </p>
-
-      <div class="science-note">
-
-        <strong>Química:</strong>
-        ocorre uma alteração das condições das partículas
-        para favorecer a formação de flocos.
-
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <!-- ETE -->
-
-  <div class="process-panel" id="ete">
-
-    <div class="process-track">
-
-      <button class="step active" data-step="ete1">
-
-        <span>01</span>
-        <b>Primário</b>
-
-      </button>
-
-
-      <button class="step" data-step="ete2">
-
-        <span>02</span>
-        <b>Secundário</b>
-
-      </button>
-
-
-      <button class="step" data-step="ete3">
-
-        <span>03</span>
-        <b>Terciário</b>
-
-      </button>
-
-    </div>
-
-
-    <div class="step-detail" id="ete-detail">
-
-      <span class="detail-tag">
-        ETAPA 01
-      </span>
-
-      <h3>
-        Sistema primário
-      </h3>
-
-      <p>
-        O esgoto fica em repouso para que sólidos
-        mais densos se depositem, formando o lodo primário.
-        O lodo pode seguir para adensamento,
-        centrifugação ou leitos de secagem.
-      </p>
-
-      <div class="science-note">
-
-        <strong>Processo:</strong>
-        sedimentação — separação baseada principalmente
-        na diferença de densidade.
-
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <div class="chem-callout">
-
-    <span>⚗️</span>
-
-    <div>
-
-      <strong>
-        Palatabilidade também importa.
-      </strong>
-
-      Além da segurança microbiológica e química,
-      a água para consumo deve apresentar características
-      adequadas de sabor, odor e aparência.
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- BIOLOGIA -->
-
-<section id="biologia" class="section">
-
-  <div class="section-heading">
-
-    <span class="eyebrow">
-      BIOLOGIA
-    </span>
-
-    <h2>
-      Quando a água fica contaminada
-    </h2>
-
-    <p>
-      Poluentes podem chegar à água de formas diferentes —
-      e seus efeitos podem atingir pessoas e ecossistemas.
-    </p>
-
-  </div>
-
-
-  <div class="contamination-map">
-
-
-    <div class="source-card">
-
-      <span>🏠</span>
-
-      <h3>
-        Esgoto doméstico
-      </h3>
-
-      <p>
-        Matéria orgânica e microrganismos podem contaminar
-        rios quando o esgoto não recebe tratamento adequado.
-      </p>
-
-    </div>
-
-
-    <div class="source-card">
-
-      <span>🌾</span>
-
-      <h3>
-        Agricultura
-      </h3>
-
-      <p>
-        Fertilizantes e agrotóxicos podem ser transportados
-        pela chuva para o solo, rios e aquíferos.
-      </p>
-
-    </div>
-
-
-    <div class="source-card">
-
-      <span>🏭</span>
-
-      <h3>
-        Indústria
-      </h3>
-
-      <p>
-        Produtos químicos e outros resíduos podem atingir
-        cursos d’água quando não são corretamente controlados.
-      </p>
-
-    </div>
-
-
-    <div class="source-card">
-
-      <span>⛏️</span>
-
-      <h3>
-        Mineração
-      </h3>
-
-      <p>
-        Atividades mineradoras podem contribuir para a entrada
-        de sedimentos e determinados contaminantes no ambiente.
-      </p>
-
-    </div>
-
-
-    <div class="source-card">
-
-      <span>🛢️</span>
-
-      <h3>
-        Combustíveis e petróleo
-      </h3>
-
-      <p>
-        Vazamentos podem introduzir substâncias que prejudicam
-        organismos aquáticos e a qualidade da água.
-      </p>
-
-    </div>
-
-
-    <div class="source-card">
-
-      <span>🗑️</span>
-
-      <h3>
-        Resíduos e lixo
-      </h3>
-
-      <p>
-        Resíduos descartados de forma irregular podem ser
-        carregados pela chuva para bueiros e corpos d’água.
-      </p>
-
-    </div>
-
-  </div>
-
-
-  <!-- DTHA -->
-
-  <div class="dtha">
-
-    <div>
-
-      <span class="eyebrow">
-        FOCO EM SAÚDE
-      </span>
-
-      <h2>
-        DTHA
-      </h2>
-
-      <p>
-
-        <strong>
-          Doenças de Transmissão Hídrica e Alimentar
-        </strong>
-
-        podem ocorrer pela ingestão de água ou alimentos
-        contaminados. Os agentes podem incluir bactérias,
-        vírus, parasitas ou substâncias químicas.
-
-      </p>
-
-      <p class="small">
-
-        Os sintomas variam conforme o agente,
-        mas podem incluir náusea, vômito, dor abdominal,
-        diarreia, febre e falta de apetite.
-
-      </p>
-
-    </div>
-
-
-    <div class="disease-grid">
-
-      <button class="disease" data-disease="Cólera">
-
-        🦠
-
-        <b>
-          Cólera
-        </b>
-
-        <small>
-          Vibrio cholerae
-        </small>
-
-      </button>
-
-
-      <button class="disease" data-disease="Hepatite A">
-
-        🧬
-
-        <b>
-          Hepatite A
-        </b>
-
-        <small>
-          Vírus da hepatite A
-        </small>
-
-      </button>
-
-
-      <button class="disease" data-disease="Giardíase">
-
-        🔬
-
-        <b>
-          Giardíase
-        </b>
-
-        <small>
-          Giardia
-        </small>
-
-      </button>
-
-
-      <button class="disease" data-disease="Leptospirose">
-
-        🧫
-
-        <b>
-          Leptospirose
-        </b>
-
-        <small>
-          Leptospira
-        </small>
-
-      </button>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- SUSTENTABILIDADE -->
-
-<section id="sustentabilidade" class="section sustainability">
-
-  <div class="section-heading">
-
-    <span class="eyebrow">
-      SUSTENTABILIDADE
-    </span>
-
-    <h2>
-      O ciclo da água precisa continuar.
-    </h2>
-
-    <p>
-      Preservar a água envolve infraestrutura,
-      políticas públicas e atitudes no dia a dia.
-    </p>
-
-  </div>
-
-
-  <div class="sustain-grid">
-
-    <article>
-
-      <span>♻️</span>
-
-      <h3>
-        Destine resíduos corretamente
-      </h3>
-
-      <p>
-        Evite que lixo e óleo de cozinha cheguem
-        a bueiros, rios e solos.
-      </p>
-
-    </article>
-
-
-    <article>
-
-      <span>🚰</span>
-
-      <h3>
-        Cuide da água em casa
-      </h3>
-
-      <p>
-        Faça a manutenção adequada de caixas-d’água
-        e filtros e evite desperdícios.
-      </p>
-
-    </article>
-
-
-    <article>
-
-      <span>🌱</span>
-
-      <h3>
-        Reduza a poluição
-      </h3>
-
-      <p>
-        Prefira práticas e produtos que diminuam
-        a carga de substâncias poluentes no ambiente.
-      </p>
-
-    </article>
-
-
-    <article>
-
-      <span>🏙️</span>
-
-      <h3>
-        Invista em saneamento
-      </h3>
-
-      <p>
-        Coleta e tratamento de esgoto são fundamentais
-        para proteger a saúde e os corpos d’água.
-      </p>
-
-    </article>
-
-  </div>
-
-
-  <!-- QUIZ -->
-
-  <div class="mini-game">
-
-    <div>
-
-      <span class="eyebrow">
-        DESAFIO RÁPIDO
-      </span>
-
-      <h3>
-        Qual atitude protege mais diretamente os rios?
-      </h3>
-
-    </div>
-
-
-    <div class="quiz-options">
-
-      <button data-correct="false">
-        Jogar óleo na pia
-      </button>
-
-      <button data-correct="true">
-        Destinar óleo e resíduos corretamente
-      </button>
-
-      <button data-correct="false">
-        Lançar produtos químicos no vaso
-      </button>
-
-    </div>
-
-
-    <p id="quizResult"></p>
-
-  </div>
-
-</section>
-
-
-<!-- DADOS -->
-
-<section id="dados" class="section data-section">
-
-  <div class="section-heading">
-
-    <span class="eyebrow">
-      MATEMÁTICA • ANÁLISE DE DADOS
-    </span>
-
-    <h2>
-      Números que ajudam a enxergar o problema
-    </h2>
-
-    <p>
-      Os gráficos abaixo usam dados globais publicados pela
-      OMS/UNICEF e servem para visualizar a dimensão do desafio.
-    </p>
-
-  </div>
-
-
-  <div class="stat-grid">
-
-
-    <div class="stat">
-
-      <strong>
-        2,1 bi
-      </strong>
-
-      <span>
-        pessoas sem água potável gerenciada com segurança,
-        segundo a atualização da OMS de 2026.
-      </span>
-
-    </div>
-
-
-    <div class="stat">
-
-      <strong>
-        3,4 bi
-      </strong>
-
-      <span>
-        pessoas sem saneamento gerenciado com segurança.
-      </span>
-
-    </div>
-
-
-    <div class="stat">
-
-      <strong>
-        1,4 mi+
-      </strong>
-
-      <span>
-        mortes evitáveis por ano relacionadas a água,
-        saneamento e higiene inadequados.
-      </span>
-
-    </div>
-
-  </div>
-
-
-  <div class="charts">
-
-
-    <article class="chart-card">
-
-      <h3>
-        Acesso global a água potável
-        gerenciada com segurança
-      </h3>
-
-      <div class="bar-chart">
-
-
-        <div class="bar-row">
-
-          <span>
-            2022
-          </span>
-
-          <div class="bar">
-            <i style="width:73%"></i>
-          </div>
-
-          <b>
-            73%
-          </b>
-
-        </div>
-
-
-        <div class="bar-row">
-
-          <span>
-            2024*
-          </span>
-
-          <div class="bar">
-            <i style="width:74%"></i>
-          </div>
-
-          <b>
-            ≈74%
-          </b>
-
-        </div>
-
-      </div>
-
-      <small>
-        *Valor aproximado usado apenas como visualização.
-        Consulte o relatório JMP para a série completa.
-      </small>
-
-    </article>
-
-
-    <article class="chart-card">
-
-      <h3>
-        Em 2022, pessoas sem serviço
-        gerenciado com segurança
-      </h3>
-
-
-      <div class="donut-wrap">
-
-        <div class="donut">
-
-          <span>
-            2,2 bi
-          </span>
-
-        </div>
-
-
-        <div class="legend">
-
-          <p>
-            <i class="dot"></i>
-            Sem serviço gerenciado com segurança
-          </p>
-
-          <p>
-            <i class="dot second"></i>
-            Com serviço gerenciado com segurança
-          </p>
-
-          <strong>
-            ≈27% × 73%
-          </strong>
-
-        </div>
-
-      </div>
-
-    </article>
-
-  </div>
-
-
-  <div class="data-note">
-
-    <strong>
-      ⚠️ Correção importante da pesquisa:
-    </strong>
-
-    a frase “2 bilhões de pessoas consomem água contaminada
-    diariamente” é simplificada demais.
-
-    A OMS informa que, em 2026, cerca de 2,1 bilhões ainda
-    não tinham acesso a água potável gerenciada com segurança;
-    em 2022, pelo menos 1,7 bilhão utilizava uma fonte de
-    água potável contaminada por fezes.
-
-  </div>
-
-</section>
-
-
-<!-- FONTES -->
-
-<section id="fontes" class="section sources">
-
-  <div class="section-heading">
-
-    <span class="eyebrow">
-      REFERÊNCIAS
-    </span>
-
-    <h2>
-      De onde vêm os dados?
-    </h2>
-
-  </div>
-
-
-  <div class="source-list">
-
-    <a
-      href="https://www.who.int/news/item/18-06-2026-who-unveils-third-addendum-to-guidelines-for-drinking-water-quality"
-      target="_blank">
-
-      OMS — Guidelines for drinking-water quality
-      ↗
-
-    </a>
-
-
-    <a
-      href="https://www.who.int/publications/i/item/9789240115149"
-      target="_blank">
-
-      OMS/UNICEF — Progress on household drinking-water,
-      sanitation and hygiene 2000–2024 ↗
-
-    </a>
-
-
-    <a
-      href="https://www.who.int/news-room/fact-sheets/detail/drinking-water"
-      target="_blank">
-
-      OMS — Drinking-water: fatos e riscos à saúde ↗
-
-    </a>
-
-  </div>
-
-
-  <p class="credits">
-
-    Projeto escolar • Tema:
-    <strong>Cada Gota Conta</strong>
-
-    • Tecnociência, Química, Biologia,
-    Sustentabilidade e Matemática.
-
-  </p>
-
-</section>
-
-</main>
-
-
-<footer>
-
-  <span>
-    💧 Cada Gota Conta
-  </span>
-
-  <span>
-    Projeto Integrador • 2026
-  </span>
-
-</footer>
-
-
-<!-- JANELA DAS DOENÇAS -->
-
-<div class="modal" id="modal">
-
-  <div class="modal-box">
-
-    <button class="close" id="closeModal">
-      ×
-    </button>
-
-    <span class="modal-icon">
-      💧
-    </span>
-
-    <h3 id="modalTitle">
-      Doença
-    </h3>
-
-    <p id="modalText"></p>
-
-  </div>
-
-</div>
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
